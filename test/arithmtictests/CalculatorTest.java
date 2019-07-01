@@ -78,5 +78,10 @@ public class CalculatorTest {
         assertEquals( 2, obj.div(10,5)  );
        
     }
-    
+     public void rem()
+    {
+        Calculator obj= new Calculator();
+        assertEquals( 0, obj.rem(10,5)  );
+       
+    }
 }
